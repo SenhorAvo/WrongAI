@@ -1,1 +1,141 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050807;
+    color: #e0ffe8;
+    font-family: Consolas, monospace;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 35px 15px;
+    border-bottom: 1px solid #164c2b;
+    background: #080f0b;
+}
+
+header h1 {
+    font-size: 45px;
+    color: #39ff75;
+    letter-spacing: 5px;
+    text-shadow: 0 0 15px #39ff75;
+}
+
+header h1 span {
+    color: white;
+}
+
+header p {
+    color: #7ca88a;
+    margin-top: 8px;
+    letter-spacing: 3px;
+}
+
+.status {
+    color: #39ff75;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+main {
+    width: 90%;
+    max-width: 750px;
+    margin: 50px auto;
+}
+
+.welcome {
+    margin-bottom: 30px;
+}
+
+.welcome h2 {
+    color: #39ff75;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #829989;
+}
+
+#chat {
+    background: #0b120e;
+    border: 1px solid #164c2b;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 300px;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.bot-message,
+.user-message {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    line-height: 1.6;
+}
+
+.bot-message {
+    background: #102519;
+    border-left: 3px solid #39ff75;
+}
+
+.bot-message strong {
+    color: #39ff75;
+}
+
+.user-message {
+    background: #14201a;
+    border-left: 3px solid #a0a0a0;
+}
+
+.user-message strong {
+    color: white;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    background: #0b120e;
+    border: 1px solid #245b37;
+    color: white;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #39ff75;
+}
+
+button {
+    background: #39ff75;
+    color: #031008;
+    border: none;
+    padding: 0 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #20cc59;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #53745d;
+    font-size: 12px;
+}
+
